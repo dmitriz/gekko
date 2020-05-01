@@ -1,0 +1,24 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@slack/client > lodash':
+        patched: '2020-05-01T07:08:19.505Z'
+    - async > lodash:
+        patched: '2020-05-01T07:08:19.505Z'
+    - bitexthai > lodash:
+        patched: '2020-05-01T07:08:19.505Z'
+    - bitfinex-api-node > lodash:
+        patched: '2020-05-01T07:08:19.505Z'
+    - bitfinex-api-node > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T07:08:19.505Z'
+    - btc-china-fork > request > form-data > async > lodash:
+        patched: '2020-05-01T07:08:19.505Z'
+    - okcoin-china > request > form-data > async > lodash:
+        patched: '2020-05-01T07:08:19.505Z'
+    - zaif.jp > limit-request-promise > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T07:08:19.505Z'
+    - gdax > request > form-data > async > lodash:
+        patched: '2020-05-01T07:08:19.505Z'
